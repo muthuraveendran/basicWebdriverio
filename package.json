@@ -1,0 +1,29 @@
+{
+  "name": "webdriverio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "local-runner": "^0.1.1-alpha",
+    "webdriverio": "^6.7.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/register": "^7.12.1",
+    "@wdio/cli": "^6.7.1",
+    "@wdio/jasmine-framework": "^6.7.1",
+    "@wdio/local-runner": "^6.7.1",
+    "@wdio/selenium-standalone-service": "^6.6.5",
+    "@wdio/spec-reporter": "^6.7.0",
+    "chromedriver": "^86.0.0",
+    "jasmine": "^3.6.3",
+    "wdio-chromedriver-service": "^6.0.4"
+  }
+}
